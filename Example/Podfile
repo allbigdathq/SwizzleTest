@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SwizzleTest_Example' do
+  pod 'SwizzleTest', :path => '../'
+
+  target 'SwizzleTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
