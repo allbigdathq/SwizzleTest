@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		039638065974E2305F405136 /* SwizzleTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SwizzleTest.podspec; path = ../SwizzleTest.podspec; sourceTree = "<group>"; };
-		13276BBC874C0E312E06660B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		039638065974E2305F405136 /* SwizzleTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwizzleTest.podspec; path = ../SwizzleTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		13276BBC874C0E312E06660B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		41AC3183171A6DDE45B631A3 /* Pods-SwizzleTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwizzleTest_Example.release.xcconfig"; path = "Target Support Files/Pods-SwizzleTest_Example/Pods-SwizzleTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		483A48E5850A20F4B726853D /* Pods_SwizzleTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwizzleTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SwizzleTest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwizzleTest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		64E664C017E0FA6373EE45E1 /* Pods-SwizzleTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwizzleTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwizzleTest_Tests/Pods-SwizzleTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A7256B53E76A78C8D9450070 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A7256B53E76A78C8D9450070 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B4CCE6D762F2638EA1501D1E /* Pods-SwizzleTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwizzleTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwizzleTest_Example/Pods-SwizzleTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BBB1AC2D4CCC39BB21B40064 /* Pods_SwizzleTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwizzleTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4EEAA899F74AF359814EFC /* Pods-SwizzleTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwizzleTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwizzleTest_Tests/Pods-SwizzleTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				CE4EEAA899F74AF359814EFC /* Pods-SwizzleTest_Tests.debug.xcconfig */,
 				64E664C017E0FA6373EE45E1 /* Pods-SwizzleTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
