@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwizzleTest'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'Swizzling'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SwizzleTest/Classes/**/*'
+  s.source_files = 'Sources/SwizzleTest/Classes/**/*'
   
   s.swift_versions = '5.0'
   # s.resource_bundles = {
