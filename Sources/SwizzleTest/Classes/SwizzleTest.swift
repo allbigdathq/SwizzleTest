@@ -1,6 +1,17 @@
 
 import UIKit
 
+open class SwizzleTest {
+    public static let SHARED : SwizzleTest = SwizzleTest()
+
+    private init() {
+    }
+    
+    private func getPackageName() -> String {
+        return "SwizzleTest"
+    }
+}
+
 extension UINavigationController {
     // allbigdat pushViewController
     open class func allbigdatSwizzlePushViewController2(){
