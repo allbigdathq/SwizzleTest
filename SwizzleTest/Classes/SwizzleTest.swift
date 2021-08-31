@@ -7,7 +7,7 @@ open class SwizzleTest {
     private init() {
     }
     
-    private func getPackageName() -> String {
+    open func getPackageName() -> String {
         return "SwizzleTest"
     }
 }

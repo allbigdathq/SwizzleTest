@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         UIViewController.allbigdatSwizzleLoadView2()
+        print(SwizzleTest.SHARED.getPackageName())
         return true
     }
 
