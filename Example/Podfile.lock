@@ -1,0 +1,16 @@
+PODS:
+  - SwizzleTest (0.1.0)
+
+DEPENDENCIES:
+  - SwizzleTest (from `../`)
+
+EXTERNAL SOURCES:
+  SwizzleTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwizzleTest: 5e8d2aa976752ea5d27e500c788fc8e367807dd2
+
+PODFILE CHECKSUM: c17d83f6c706bb8a1c179ae6ba582df78aa0f483
+
+COCOAPODS: 1.10.2

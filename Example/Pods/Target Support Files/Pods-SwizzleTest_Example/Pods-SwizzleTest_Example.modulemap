@@ -1,0 +1,6 @@
+framework module Pods_SwizzleTest_Example {
+  umbrella header "Pods-SwizzleTest_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
